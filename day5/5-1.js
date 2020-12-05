@@ -22,20 +22,15 @@ async function test() {
   }));
 
   let highest = 0;
-  // for (let i = 0; i < data.length; i++) {
-  //   const currentRow = getPosition(0, 127, data[i].row);
-  //   const currentCol = getPosition(0, 7, data[i].col);
-  //   const result = currentRow * 8 + currentCol;
-  //   console.log(currentRow, currentCol, result);
-  //   if (highest < result) {
-  //     highest = result;
-  //   }
-  // }
-
-  const currentRow = getPosition(0, 127, 'BBFFBBF');
-  const currentCol = getPosition(0, 7, 'RLL');
-  const result = currentRow * 8 + currentCol;
-  console.log(currentRow, currentCol, result);
+  for (let i = 0; i < data.length; i++) {
+    const currentRow = getPosition(0, 127, data[i].row);
+    const currentCol = getPosition(0, 7, data[i].col);
+    const result = currentRow * 8 + currentCol;
+    console.log(currentRow, currentCol, result);
+    if (highest < result) {
+      highest = result;
+    }
+  }
 
   console.log('result: ', highest);
   return;
