@@ -2,8 +2,6 @@ const { getTestData } = require('../getTestData');
 
 function findAimBag (bagMap, currentBag, aimBag) {
   let result = 0;
-  // console.log('---------');
-  // console.log(currentBag);
   if (currentBag[0].bag === 'no other bags') {
     return 0;
   }
