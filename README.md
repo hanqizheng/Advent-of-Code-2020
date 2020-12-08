@@ -6,3 +6,5 @@
 - [day 4](https://github.com/hanqizheng/AdventOf2020/tree/master/day4)
 - [day 5](https://github.com/hanqizheng/AdventOf2020/tree/master/day5)
 - [day 6](https://github.com/hanqizheng/AdventOf2020/tree/master/day6)
+- [day 7](https://github.com/hanqizheng/AdventOf2020/tree/master/day7)
+- [day 8](https://github.com/hanqizheng/AdventOf2020/tree/master/day8)
