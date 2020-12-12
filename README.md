@@ -11,3 +11,4 @@
 - [day 9](https://github.com/hanqizheng/AdventOf2020/tree/master/day9)
 - [day 10](https://github.com/hanqizheng/AdventOf2020/tree/master/day10)
 - [day 11](https://github.com/hanqizheng/AdventOf2020/tree/master/day11)
+- [day 12](https://github.com/hanqizheng/AdventOf2020/tree/master/day12)
