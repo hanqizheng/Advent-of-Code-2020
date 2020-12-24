@@ -24,44 +24,10 @@ async function test() {
     return Number(item);
   });
 
-  const gapOffsetMap = {};
-
-
-  const basicResult = [];
-
-  for (let i = 0; i < temp.length; i++) {
-    if (temp[i] !== 'x') {
-      Object.assign(gapOffsetMap, { [temp[i]]: i });
-    }
-  }
-
-  console.log(busIds)
-  console.log(gapOffsetMap)
-  console.log(extendGcd(59, 31));
+  console.log(busIds);
+  console.log(temp);
 
   return;
 }
 
 test();
-
-
-
-  // let j = 100000000000005;
-  // // let j = 0;
-  // let resultTimeStam;
-  // while (true) {
-  //   const aim = busIds[0] * j;
-  //   console.log(aim);
-  //   let k = 1;
-  //   while (k < busIds.length) {
-  //     if (gapOffsetMap[busIds[k]] !== busIds[k] - (aim % busIds[k])) {
-  //       break;
-  //     }
-  //     k++;
-  //   }
-  //   if (k === busIds.length) {
-  //     resultTimeStam = aim;
-  //     break;
-  //   }
-  //   j += 7;
-  // }
